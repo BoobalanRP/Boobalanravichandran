@@ -1,12 +1,78 @@
+
 h1{
-	color:blue;
-	font-family: "Merriweather" ;
+	color:#f6cb09;
+	font-family: "Abril Fatface" ;
+	font-size:55px;
 }
- h2{
-	colour:green;
-	font-family: "Lobster" ;
+	
+ h2,h3{
+	color:#f7b808;
+	font-family: "Noto Serif" ;
+	font-size:30px;
+}
+ 
+ h3{
+	
+	font-size:25px;
+}
+ 
+ 
+ p,ul{
+	 color:white;
+	 font-family: "Noto Serif" ;
+	 font-size:17px;
  }
- p{
-	 color:#6439C6;
-	 font-family: "Patua One" ;
+ header {
+	 display:flex;
+	 flex-direction:row;
+	 justify-content: space-between;
+	 padding: 20px 10px;
+	 background-color:#545aab;
+	 
+ }
+img{
+	display:flex;
+	height:250px;
+	width:260px;
+
+
+ }
+ nav ul li
+ {
+	 color:white;
+	 list-style:none;
+	 margin:25px;	
+     
+ }
+ header nav ul{
+
+	 display:flex;
+ } 
+ 
+ 
+
+ a{
+   color:#bccb34;
+   text-decoration:none;
+   
+ }
+ #part1{
+	 margin-bottom:-100px;
+ }
+ 
+ #part2{
+	 margin-left:700px;
+	 
+ }
+ footer div a img{
+	 width:50px;
+	 height:auto;
+	 margin-left:100px;
+ }
+ footer{
+	 
+  background-color:gray;
+ }
+ .contact{
+ display:flex;
  }
