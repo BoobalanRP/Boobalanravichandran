@@ -1,0 +1,243 @@
+*{
+	margin:0px;
+	padding: 0px;
+	font-family: "Esteban" ;
+	box-sizing: border-box;
+}
+	
+.hero{
+	height:100vh;
+	width:100%;
+	background-image:url(./boobalan.png) ;
+	background-size: cover;
+	background-position: center;
+}
+nav{
+	display:flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-top: 45px;
+	padding-left: 8%;
+	padding-right: 8%;
+
+}
+.logo{
+	color: antiquewhite;
+	font-size: 50px;
+	letter-spacing: 1px;
+	cursor: pointer;
+}
+span{
+	color: #f9004d;
+}
+nav ul li{
+	list-style-type: none;
+	display: inline-block;
+	padding: 10px 20px;
+
+}
+nav ul li a{
+	color:blanchedalmond;
+	text-decoration: none;
+	letter-spacing: 1px;
+	font-weight: bold;
+	text-transform: capitalize;
+}
+
+nav ul li a:hover{
+	color:#f9004d;
+	transition: .4s;
+}
+.details{
+	position: absolute;
+    top:50%;
+	left:8%;
+	transform: translateY(-50%);
+}
+h1{
+	color:#f9004d;
+	
+	margin: 20px 0px 20px;
+	font-size: 65px;
+}
+h1,h2{
+	font-family: "Rye";
+}
+h3{
+	color: white;
+	font-size: 30px;
+	margin-bottom:50px;
+}
+h4{
+	color:darksalmon;
+	font-size: 20px;
+    letter-spacing: 1px;
+}
+.about{
+	width:100%;
+	padding: 100px 0px;
+   background-color:black ;
+}
+.about img{
+    height: 600px;
+	width:50%;
+}
+.about-content{
+	width: 600px;
+}
+.main{
+	width:1130px;
+	max-width :95%;
+	margin:0 auto;
+	display:flex;
+	align-items: center;
+	justify-content:space-around;
+}
+.about-content h2{
+	color:#f9004d;
+	font-size: 75px;
+	margin-bottom: 50px;
+	margin-top: 100px;
+}
+.about-content p{
+	color:white;
+	font-style:oblique;
+	font-size:20px ;
+	line-height:30px;
+	margin-bottom:100px ;
+}
+.native{
+	width:100%;
+	padding: 100px 0px;
+   background-color:black ;
+}
+
+.native img{
+    height: 600px;
+	width:430px;
+}
+.native-content{
+	width: 600px;
+}
+.main1{
+	width:1140px;
+	max-width :95%;
+	margin:0 auto;
+	display:flex;
+	align-items: center;
+	justify-content:space-around;
+}
+.native-content h2{
+	color:#f9004d;
+	font-size: 75px;
+	margin-bottom: 50px;
+}
+.native-content p{
+	color:white;
+	font-style:oblique;
+	font-size:20px ;
+	line-height:30px;
+	margin-bottom:100px ;
+}
+.skills{
+	height:100vh;
+	width:100%;
+	background-image: url(https://c4.wallpaperflare.com/wallpaper/4/880/964/one-piece-black-and-white-roronoa-zoro-hd-wallpaper-preview.jpg);
+	background-size: cover;
+	background-position: center;
+   text}
+   
+.skills h2{
+   color:#f9004d ;
+   font-size: 80px ;
+   text-align:left;
+   margin-block-end: 35px;
+   margin-left: 80px;
+
+}
+.skills h3{
+	font-size:40px;
+	font-weight: bold;
+	text-align:left;
+	margin-left: 80px;
+	
+}
+.skills li{
+	color:white;
+	font-size: 20px;
+	margin-left: 80px;
+}
+.skills-content{
+	
+	width:100%;
+	padding: 120px 0px;
+    background-color:black ;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content:flex-start;
+	align-content: center;
+	 box-sizing: content-box;
+	 width: 720px;
+	 
+}
+.goal{
+	font-style:oblique;
+}
+.contact-me{
+	display:flex;
+}
+.contact-me{
+	width:100%;
+	height:390px;
+	background: black;
+	align-items:center;
+	flex-direction: column;
+	justify-content: center;
+}
+.contact-me p{
+color: azure;
+font-size: 30px;
+font-weight: bold;
+margin-bottom: 25px;
+}
+footer{
+	display: flex;
+}
+footer{
+	position: relative;
+	width:100%;
+	height: 500px;
+	background: black;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+footer p:nth-child(1){
+	font-size: 40px;
+	font-family: "Rye";
+	color:#f9004d;
+	margin-bottom: 20px;
+	font-weight: bold;
+}
+footer p:nth-child(2){
+	font-size: 20px;
+	color:white;
+	width:500px;
+	text-align: center;
+	line-height: 26px;
+}
+.social{
+	display: flex;
+}
+.social a img{
+	width:45px;
+	height:45px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: white;
+	border-radius: 25%;
+	margin:22px 10px;
+	color: white;
+
+}
